@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="description" content="Say No To Brokerage.Try OwnHome Today For Hassle Free Realstate Experience. Search Your Dream Home">
+  
+    <meta name="keyword" content="Realstate Website,Rent House,Flat,Commercial Office">
+    
+    <meta name="author" content="Manish Sardhana">
+ 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Submit-Property Page</title>
+
+    <!-- google font link -->
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+
+    <!-- stylesheet link -->
+
+    <link rel="stylesheet" href="submit-property.css">
+
+    <!-- javascript link -->
+
+    <script src="submit-property.js" defer></script>
+
+
+</head>
+
+<body>
+
+<!-- submit property main containter start from here -->
+
+<div class="submit-pro-main-container">
+ <!-- banner section start from here -->
+ <div class="banner-sec-fullwidth">
+   <!-- header section start from here -->
+     <header class="header stiky">
+       <h1>OwnHome</h1>
+       <nav class="navbar">
+        <ul class="navbar-list">
+        <li>
+          <a class="navbar-link active-col" href="ownhome-home-page-index.html" target="_blank">Home</a>
+          </li> 
+          
+        <li>
+          <a class="navbar-link" href="catalog-index.html" target="_blank">Catalog</a>
+          </li> 
+          
+        <li>
+          <a class="navbar-link" href="submit-property-index.html" target="_blank">Submit Property</a>
+          </li> 
+          
+        <li>
+          <a class="navbar-link" href="service-index.html" target="_blank">Service</a>
+          </li>
+          
+        <li>
+          <a class="navbar-link" href="about-index.html" target="_blank">About</a>
+          </li> 
+          
+        <li>
+          <a class="navbar-link" href="contact-index.html" target="_blank">Contact</a>
+          </li>
+        </ul>
+       </nav>
+       <div class="mobile-nav-btn">
+         <ion-icon name="menu-outline" class="mobile-nav-icon"></ion-icon>
+         <ion-icon name="close-outline" class="mobile-nav-icon"></ion-icon>
+       </div>
+     </header>
+    <!-- header section start end here-->
+    
+   <div class="banner-sec-midwidth">
+     <h1>Submit Property</h1>
+     <ul>
+       <li>
+         <a href="ownhome-home-page-index.html" target="_blank" class="col-ch">Home &nbsp;</a>
+       </li>
+
+       <li>
+         <a href="submit-property-index.html" target="_blank">&#47;&nbsp;&nbsp; Submit Property</a>
+       </li>
+     </ul>
+   </div>
+ </div>
+  <!-- banner section end here -->
+  
+  <!-- fill the form section start from here -->
+  <div class="fill-form-sec-fullwidth">
+    <h2>Fill in the Form</h2>
+    <div class="fill-form-sec-underline">
+      </div>
+    <div class="fill-form-sec-midwidth">
+
+   <!--commenting form-->
+   <!---
+      <form action ="/action.php" method="get">
+      -->
+
+        <!-- pro title sec start -->
+        <div class="pro-title-sec">
+          <h3>Property Title :</h3>
+          <input type="text" name="pro-title">
+        </div>
+        <!-- pro title sec end -->
+       
+       <!-- location and pro-sta sec start -->
+    <div class="location-and-pro-sta-sec">
+        <!-- location sec start --> 
+        
+        <div class="loc-selector">
+          <h3>Location :</h3>
+          <div id="loc-selectfiled">
+            <p id="loc-selectText">Any</p>
+          <ion-icon name="chevron-down-outline" id="loc-arrowIcon"></ion-icon>
+          </div>
+          <ul id="loc-list" class="hide">
+            <li class="loc-option">
+              Any</li>
+              <li class="loc-option">
+                Mumbai</li>
+               <li class="loc-option">
+                 Pune</li> 
+                 <li class="loc-option">
+                   Delhi</li>
+          </ul>
+        </div>
+        
+        <!-- location sec end -->
+           <!-- property Status sec start -->
+   
+      <div class="pro-sta-selector">
+        <h3>Property Status :</h3>
+       <div id="pro-sta-selectfiled">
+          <p id="pro-sta-selectText">Any</p>
+       <ion-icon name="chevron-down-outline" id="pro-sta-arrowIcon"></ion-icon>
+        </div>
+        <ul id="pro-sta-list" class="hide">
+          <li class="pro-sta-option">
+            Any
+            </li>
+         <li class="pro-sta-option">
+           Sale
+           </li>
+        <li class="pro-sta-option">
+          Rent
+          </li>
+          <li class="pro-sta-option">
+             Commercial
+           </li>
+        </ul>
+      </div>
+    <!-- property Status sec end  -->
+    
+       </div>
+      <!-- location and pro-sta sec end-->
+           <!-- property type sec start -->
+    <div class="pro-ty-selector">
+      <h3>Property Type :</h3>
+      <div id="pro-ty-selectfiled">
+        <p id="pro-ty-selectText">Any
+        </p>
+       <ion-icon name="chevron-down-outline" id="pro-ty-arrowIcon"></ion-icon>
+      </div>
+      <ul id="pro-ty-list" class="hide">
+        <li class="pro-ty-option">
+          Any
+        </li>
+        
+      <li class="pro-ty-option">
+          Apartment
+        </li>
+        
+     <li class="pro-ty-option">
+         Office
+       </li>
+       
+     <li class="pro-ty-option">
+           Hotel
+       </li>
+      </ul>
+    </div>
+   <!-- property type sec end -->
+   
+   <!-- bed and bath and price sec start-->
+   <div class="bed-bath-price-sec">
+     <!-- bed sec start -->
+        <div class="bed-sec-selector">
+        <h3>Min Beds :</h3>
+       <div id="bed-sec-selectfiled">
+          <p id="bed-sec-selectText">Any</p>
+       <ion-icon name="chevron-down-outline" id="bed-sec-arrowIcon"></ion-icon>
+        </div>
+        <ul id="bed-sec-list" class="hide">
+          <li class="bed-sec-option">
+            1
+            </li>
+         <li class="bed-sec-option">
+           2
+           </li>
+        <li class="bed-sec-option">
+          3
+          </li>
+          <li class="bed-sec-option">
+             4
+           </li>
+        </ul>
+      </div>
+     <!-- bed sec end -->
+     
+     <!-- bath sec start -->
+        <div class="bath-sec-selector">
+        <h3>Min Baths :</h3>
+       <div id="bath-sec-selectfiled">
+          <p id="bath-sec-selectText">Any</p>
+       <ion-icon name="chevron-down-outline" id="bath-sec-arrowIcon"></ion-icon>
+        </div>
+        <ul id="bath-sec-list" class="hide">
+          <li class="bath-sec-option">
+            1
+            </li>
+         <li class="bath-sec-option">
+           2
+           </li>
+        <li class="bath-sec-option">
+          3
+          </li>
+        </ul>
+      </div>
+     <!-- bath sec end -->
+     
+     <!-- price sec start -->
+        <div class="price-sec">
+     <h3>Price(INR) : </h3>
+     <input type="number"  name="price"  min="1" max="3">
+   </div>
+     <!-- price sec end --> 
+   </div>
+  <!-- bed and bath and price sec end-->
+ 
+ <!--property description textarea sec start -->
+ <div class="textarea-sec">
+   <h3>Property Description :</h3>
+ <textarea name="description"></textarea>
+ </div>
+  <!--property description textarea sec end -->
+  
+  <!-- Search Address sec start -->
+  
+  <div class="search-sec">
+    <h3>Address :</h3>
+    <input type="search" name="Address">
+    <button type="button">find Address</button>
+  </div>
+   <!-- Search Address sec end -->
+
+   <!--commenting form-->
+   <!---
+      </form>
+    -->
+    </div>
+  </div>
+ <!-- fill the form section end here -->
+ 
+ <!-- map section start from here -->
+ <div class="map-section">
+  
+ <iframe width="520" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" id="gmap_canvas" src="https://maps.google.com/maps?width=520&amp;height=400&amp;hl=en&amp;q=%20Mumbai+()&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"> </iframe> <!--<a href='https://embedmap.org/'>https://www.embedmap.org</a> <script type='text/javascript'>src='https://embedmaps.com/google-maps-authorization/script.js?id=c4d6f2da72e0523b6051651c1668e6d64e0575b1'-->
+
+ </script>
+ </div>
+<!-- map section end here -->
+
+<!-- last footer section start from here -->
+<footer class="footer-sec-fullwidth">
+  
+  <div class="footer-sec-midwidth">
+    
+    <div class="footer-sec-inner-mid-left-sec">
+      <h4>Latest news</h4>
+      <span><ion-icon name="arrow-forward-outline"></ion-icon></span>
+      <span class="left-sec-date">05/14/2021</span>
+      <h5>Top 10 Apartment in LA</h5>
+      
+      
+        <span><ion-icon name="arrow-forward-outline"></ion-icon></span>
+      <span class="left-sec-date">03/19/2021</span>
+      <h5>Choosing a Rental Property</h5>
+      
+        <span><ion-icon name="arrow-forward-outline"></ion-icon></span>
+       <span class="left-sec-date">12/29/2021</span>
+      <h5>Features of Mortgage Loans</h5>
+      
+      </div>
+      
+      <!--    -->
+      
+   <div class="footer-sec-inner-mid-right-sec clearfix">
+      <h4>useful links</h4>
+        <span><ion-icon name="arrow-forward-outline"></ion-icon></span>
+      <span class="right-head">Properties</span><br>
+      
+       <span><ion-icon name="arrow-forward-outline"></ion-icon></span>
+      <span class="right-head">Amenities</span><br>
+      
+       <span><ion-icon name="arrow-forward-outline"></ion-icon></span>
+      <span class="right-head">Rentals</span><br>
+      
+       <span><ion-icon name="arrow-forward-outline"></ion-icon></span>
+      <span class="right-head">Mortgage</span><br>
+      
+       <span><ion-icon name="arrow-forward-outline"></ion-icon></span>
+      <span class="right-head">Agents</span>
+      </div>
+      
+      <!--     -->
+      <!-- footer con sec start from here-->
+    <div class="footer-con-sec">
+      <h4>News Letter</h4>
+      <p>Keep up with the latest company news and events. Enter your <br>e-mail and subscribe to our newsletter.</p>
+      
+      <form action="/action.php" method="get">
+      <div class="footer-con-sec-input">
+    <input type="email" name="email" placeholder="Type Your E-mail" id="footer-input">
+        <button type="submit">Subscribe</button>
+      </div>
+      </form>
+    </div>  
+  <!-- footer con sec end here-->
+  
+<!-- footer social-icon sec start from here -->
+<div class="footer-social-icon-sec">
+  <h4>OwnHome</h4>
+  <div class="social-icon">
+    <ion-icon name="logo-github" class="icons"></ion-icon>
+    <ion-icon name="logo-linkedin" class="icons"></ion-icon>
+    <ion-icon name="logo-twitter" class="icons"></ion-icon>
+  </div>
+</div>
+<!-- footer social-icon sec end here -->
+  </div>
+  
+  <!-- footer-copywrite sec start from here -->
+  
+  <div class="footer-copywrite-sec">
+    <div class="footer-copywrite-con">
+    <h6>OwnHome Real Estate © 2022 . Privacy Policy</h6>
+    </div>
+  </div>
+  
+<!-- footer-copywrite sec end here -->
+
+</footer>
+
+<!-- last footer section end here -->
+
+</div>
+
+<!-- submit property main containter end here -->
+
+
+<!-- mobile icon script -->
+
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>
